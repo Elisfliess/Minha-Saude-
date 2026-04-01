@@ -13,16 +13,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-
         // Configuração padrão de bordas do Android (Mantenha fora do clique)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(android.R.id.content)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
         // --- O CÓDIGO DO BOTÃO DEVE FICAR AQUI, FORA DO LISTENER ACIMA ---
-
         val btnComecar = findViewById<Button>(R.id.btnComecar)
 
         btnComecar.setOnClickListener {
@@ -31,4 +28,4 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-} // Certifique-se de que tem essa última chave fechando a classe
+}
