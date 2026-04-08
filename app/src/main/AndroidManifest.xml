@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -45,3 +46,53 @@
     </application>
 
 </manifest>
+=======
+<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+
+<application
+    android:allowBackup="true"
+    android:dataExtractionRules="@xml/data_extraction_rules"
+    android:fullBackupContent="@xml/backup_rules"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.MedicoApplication"
+    tools:targetApi="31">
+    <activity
+        android:name=".LoginActivity"
+        android:exported="false" />
+    <activity
+        android:name=".MainActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:name=".MainActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".LoginActivity" />
+</application>
+
+</manifest>=======
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<application>
+    <activity
+        android:name="com.example.medicoapplication.Cadastro"
+        android:exported="false"
+
+        />
+</application>
+</manifest>>>>>>>> Added
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781

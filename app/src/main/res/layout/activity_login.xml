@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
+=======
+    xmlns:tools="http://schemas.android.com/tools"
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_gradient">
@@ -21,7 +25,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Entrar"
+<<<<<<< HEAD
         android:textColor="#FFFFFF"
+=======
+        android:textColor="@color/white"
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +55,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:tabIndicatorHeight="0dp"
+<<<<<<< HEAD
             app:tabSelectedTextColor="#000000"
+=======
+            app:tabSelectedTextColor="@color/black"
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
             app:tabTextColor="#757575">
 
             <com.google.android.material.tabs.TabItem android:text="Paciente" />
@@ -62,10 +74,20 @@
             android:background="@drawable/bg_input_field"
             android:drawableStart="@drawable/ic_user"
             android:drawablePadding="16dp"
+<<<<<<< HEAD
             android:hint="Usuário"
             android:inputType="textEmailAddress"
             android:paddingStart="20dp"
             android:textColor="#000000"
+=======
+            android:drawableTint="#60A5FA"
+            android:hint="Usuário"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#9E9E9E"
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
             app:layout_constraintTop_toBottomOf="@id/tabUserType" />
 
         <EditText
@@ -76,10 +98,20 @@
             android:background="@drawable/bg_input_field"
             android:drawableStart="@drawable/ic_password"
             android:drawablePadding="16dp"
+<<<<<<< HEAD
             android:hint="Senha"
             android:inputType="textPassword"
             android:paddingStart="20dp"
             android:textColor="#000000"
+=======
+            android:drawableTint="#60A5FA"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#9E9E9E"
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
             app:layout_constraintTop_toBottomOf="@id/etUser" />
 
         <Button
@@ -87,13 +119,18 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="32dp"
+<<<<<<< HEAD
             android:backgroundTint="#3B82F6"
+=======
+            android:backgroundTint="@color/login_blue"
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
             android:text="Login"
             android:textAllCaps="false"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@id/etPassword" />
 
+<<<<<<< HEAD
         <TextView
             android:id="@+id/tvIrParaCadastro"
             android:layout_width="wrap_content"
@@ -118,4 +155,8 @@
             app:layout_constraintTop_toBottomOf="@id/btnLogin" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
 </androidx.constraintlayout.widget.ConstraintLayout>
