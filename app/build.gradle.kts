@@ -35,6 +35,11 @@ android {
     }
 }
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -46,7 +51,15 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+<<<<<<< HEAD
+
+// RETROFIT
+implementation("com.squareup.retrofit2:retrofit:2.9.0")
+implementation("com.squareup.retrofit2:converter-gson:2.9.0") // Para ler o JSON do servidor
+implementation("com.squareup.okhttp3:logging-interceptor:4.10.0") // Útil para ver erros no Logcat
+=======
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
+>>>>>>> 12e771da26e225d7f45d4c5609915a7ea28ee781
 }
